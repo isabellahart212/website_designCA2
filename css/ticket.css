@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+    font-family: arvo;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-left: 5%;
+}.ticket {
+    font-family: asap;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+.ticketimg {
+    font-family: asap;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #7530C9;
+}
+h2 {
+    font-family: helvetica;
+    font-style: normal;
+    font-weight: 400;
+    font-size: medium;
+    text-align: left;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-left: 5%;
+}
+.infotext {
+    text-align: left;
+    width: 60%;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-left: 5%;
+}
+p {
+    text-align: center;
+}
+.text {
+    text-align: left;
+	font-family: helvetica;
+}
+.dates {
+    text-align: left;
+    font-weight: 300;
+    font-size: small;
+    font-family: helvetica;
+    padding-left: 5%;
+}
+.info {
+    font-family: rosario;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 5%;
+}
+ul {
+    padding-left: 5%;
+    width: 60%;
+}
+.ticketimage {
+    float: right;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    margin-top: -6%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+}
+.ticketicon {
+    float: left;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+.mic {
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-left: 5%;
+    display: inline-block;
+}
+.map {
+    float: right;
+    display: inline-block;
+}
+
+@media (max-width: 650px){
+}

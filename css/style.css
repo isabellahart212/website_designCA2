@@ -1,0 +1,421 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body{
+	background-image: url("../images/background1.png")
+}
+
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #EAC789;
+    color: #000000;
+    background-image: url(../images/navbar.png);
+}
+.footertext {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    font-family: allerta;
+    font-style: normal;
+    font-weight: 400;
+    font-size: large;
+    color: #FFFFFF;
+}
+
+footer {
+    color: #FFFFFF;
+    background-image: url(url);
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+body {
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+footer {
+    background-image: url(../images/footer6.jpg);
+}
+#navbarSupportedContent1 .navbar-nav.mr-auto .nav-item {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-family: abril-fatface;
+	padding-left: 75px;
+	text-align: center;
+}
+
+p {
+	font-family: arial;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 0.01em;
+    font-family: asap;
+    font-size: 15px;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+    background-image: url(../images/footer6.jpg);
+}
+
+.footertext {
+	padding-bottom: -10%;
+}
+	
+.navbar-nav.mr-auto .nav-item.dropdown .dropdown-menu {
+    background-image: url(../images/navbar.png);
+}
+.logo {
+    padding-left: 286px;
+    margin-top: 5%;
+    margin-right: 17%;
+    margin-bottom: 3%;
+    margin-left: 17%;
+	position: sticky;
+}
+#navbarSupportedContent1 .form-inline.my-2.my-lg-0 .btn.btn-outline-success.my-2.my-sm-0 {
+    color: #FFFFFF;
+    font-family: abril-fatface;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+#navbarSupportedContent1 .navbar-nav.mr-auto .nav-item.active {
+    background-image: url(../images/navbar.png);
+}
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 .form-inline.my-2.my-lg-0 {
+}
+#navbarSupportedContent1 .form-inline.my-2.my-lg-0 .form-control.mr-sm-2 {
+}
+#navbarSupportedContent1 .form-inline.my-2.my-lg-0 .btn.btn-outline-success.my-2.my-sm-0 {
+}
+
+* {
+  box-sizing: border-box;
+}
+
+column3 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row3 {
+    display: inline-block;
+}
+
+/* Clearfix (clear floats) */
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+column4 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row4::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.columns1 {
+    float: left;
+    width: 33.33%;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-bottom: 0%;
+    margin-top: -11%;
+    margin-left: -15%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+
+/* Clearfix (clear floats) */
+.rows1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.sponser {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-left: -11%;
+    margin-bottom: 0%;
+    margin-top: 1%;
+}
+.sponser2 {
+    padding-top: 0px;
+    margin-left: 1%;
+    margin-top: -3%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+.sponser3 {
+    margin-top: -3%;
+    margin-right: 0%;
+    margin-bottom: 1%;
+    margin-left: 12%;
+}
+.quote {
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    margin-top: -1%;
+    margin-right: 5%;
+    margin-bottom: 15%;
+    margin-left: 5%;
+}
+.rows1 {
+    display: inline-block;
+    position: absolute;
+    clear: both;
+}
+.columns2 {
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    margin-right: 0%;
+    margin-bottom: -153%;
+    margin-left: 1%;
+}
+.columns3 {
+    margin-top: -1%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: -2%;
+}
+.figure figcaption {
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    text-align: center;
+}
+.column figure figcaption {
+    text-align: center;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-left: 3%;
+}
+.twitter {
+    text-align: center;
+}
+
+/*tablet view*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .logo {
+    padding-left: 30%;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+}
+  
+}
+	/*mobile phone view*/
+	
+@media (min-width: 320px) and (max-width: 680px){
+.logo {
+    padding-left: 35%;
+    margin-top: 0%;
+    margin-right: -5%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+}
+
+
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #EAC789;
+    color: #000000;
+    background-image: url(../images/navbar.png);
+}
+/* Hide the images by default */
+.mySlides {
+    display: hidden;
+}
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 .form-inline.my-2.my-lg-0 {
+}
+#navbarSupportedContent1 .form-inline.my-2.my-lg-0 .form-control.mr-sm-2 {
+	
+}
+#navbarSupportedContent1 .form-inline.my-2.my-lg-0 .btn.btn-outline-success.my-2.my-sm-0 {
+    color: #FFFFFF;
+    font-family: abril-fatface;
+    font-style: normal;
+    font-weight: 400;
+}
+.social.media {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 69px;
+    text-align: center;
+}
+.icons {
+    margin-top: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+/* Slideshow container */
+.slideshow-container {
+	display: hidden;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+/* Hide the images by default */
+.mySlides {
+    display: hidden;
+}
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+}
